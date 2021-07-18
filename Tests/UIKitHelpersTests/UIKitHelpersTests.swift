@@ -1,11 +1,10 @@
-    import XCTest
-    @testable import UIKitHelpers
+/**
+ * UIKitHelpers
+ * Copyright (c) Luca Meghnagi 2021
+ * MIT license, see LICENSE file for details
+ */
 
-    final class UIKitHelpersTests: XCTestCase {
-        func testExample() {
-            // This is an example of a functional test case.
-            // Use XCTAssert and related functions to verify your tests produce the correct
-            // results.
-            XCTAssertEqual(UIKitHelpers().text, "Hello, World!")
-        }
-    }
+import XCTest
+@testable import UIKitHelpers
+
+final class UIKitHelpersTests: XCTestCase {}
